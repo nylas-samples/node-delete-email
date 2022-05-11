@@ -59,11 +59,11 @@ Visit our [Nylas Node.js SDK documentation](https://developer.nylas.com/docs/dev
 
 ## Code of Conduct
 
-View our [Code of Conduct](https://github.com/nylas-samples/.github/blob/main/CODE_OF_CONDUCT.md)
+View our [Code of Conduct](https://github.com/nylas-samples/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## How to Contribute
 
-We love contributions! Learn [how to contribute](https://github.com/nylas-samples/.github/blob/main/CONTRIBUTING.md)
+We love contributions! Learn [how to contribute](https://github.com/nylas-samples/.github/blob/main/CONTRIBUTING.md).
 
 ## PR Template
 
