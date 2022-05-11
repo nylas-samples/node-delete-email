@@ -13,7 +13,7 @@
     "lint:prettier:check": "prettier --check '**/*.{ts,js}'",
     "build": "tsc",
     "prepare": "npm run build",
-    "watch": "nodemon -w src --exec npm run build",
+    "watch": "tsc --watch",
     "start": "node build/index.js"
   },
   "jest": {
