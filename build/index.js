@@ -7,7 +7,7 @@ Nylas.config({
     clientSecret: process.env.CLIENT_SECRET,
 });
 const nylas = Nylas.with(process.env.ACCESS_TOKEN);
-// Provide the message id you want to trash
+// Provide the message id you want to delete
 const MESSAGE_ID = process.env.MESSAGE_ID;
 const TRASH_LABEL_NAME = 'trash';
 // append the trash label and save the message

@@ -1,6 +1,6 @@
-# node-starter-repo
+# node-delete-email
 
-This sample repo will show you how to easily to get started with the Nylas Node.js SDK.
+This sample repo will show you how to easily delete an email with the Nylas Node.js SDK.
 
 ## Setup
 
@@ -10,12 +10,13 @@ This sample repo will show you how to easily to get started with the Nylas Node.
 
 ### Gather environment variables
 
-You'll need the following values:
+You'll need the following values, including the ID of the message you like to delete:
 
 ```text
 ACCESS_TOKEN = ""
 CLIENT_ID = ""
 CLIENT_SECRET = ""
+MESSAGE_ID = ""
 ```
 
 Add the above values to a `.env` file:
@@ -38,20 +39,7 @@ $ node build/index.js
 When you run the script, you'll get account information output in your terminal:
 
 ```bash
-{
-    ...
-    id: '<ACCOUNT_ID>',
-    accountId: '<ACCOUNT_ID>',
-    object: 'account',
-    name: '<ACCOUNT_NAME>',
-    emailAddress: '<ACCOUNT_EMAIL>',
-    provider: '<EMAIL_PROVIDER>',
-    organizationUnit: 'label',
-    syncState: 'running',
-    linkedAt: 2022-04-21T14:48:14.000Z,
-    accessToken: ''
-  }
-}
+Message "<MESSAGE_ID>" was deleted.
 ```
 
 ## Learn more
